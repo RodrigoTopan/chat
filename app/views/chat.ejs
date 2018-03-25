@@ -128,6 +128,8 @@
 						'msgParaServidor',
 						{ apelido: $('#apelido').val(), mensagem: $('#mensagem').val() }
 					);
+
+				$('#mensagem').val("");//apagando texto da mensagem
 			});
 
 			socket.on('msgParaCliente', function(msg){
