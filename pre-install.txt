@@ -1,0 +1,7 @@
+1) criar um diretório
+2) npm init
+3) npm install express --save
+4) ejs
+5) consign
+6) body-parser
+7) express-validator
