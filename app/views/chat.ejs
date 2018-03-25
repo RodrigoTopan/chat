@@ -121,7 +121,7 @@
 
 		<script src="/socket.io/socket.io.js"></script>
 		<script>
-			var socket = io('https://agriapi-futura.herokuapp.com');
+			var socket = io('http://localhost');
 			//Quando o botão for clicado, a aplicação enviará um mensagem ao servidor
 			$('#enviar_mensagem').click(function(){
 				socket.emit(
