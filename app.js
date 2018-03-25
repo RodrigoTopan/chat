@@ -1,7 +1,7 @@
 // importar as configurações do servidor
 const app = require('./config/server');
 
-var porta = process.env.PORT;
+var porta = process.env.PORT || 80;
 
 //parametrizar a porta de escuta
 const server = app.listen(porta,function(){
