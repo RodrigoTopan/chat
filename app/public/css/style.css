@@ -1,8 +1,6 @@
 body {
     background-color: #000;
-    /*background: url('../images/login-bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;  */
+    background: url('../images/bg.gif');
 }
 
 .form-signin input[type="text"] {
